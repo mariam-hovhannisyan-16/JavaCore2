@@ -9,8 +9,8 @@ public class Employee {
     private double salary;
     private String company;
     private String position;
-
-    public Employee() {
+    private PositionLevel positionLevel;
+    public Employee(String name, String surname, String id, double salary, String company, String position, PositionLevel positionLevel) {
     }
 
     public Employee(String name, String surname, String employeeID, double salary, String company, String position) {
@@ -20,6 +20,7 @@ public class Employee {
         this.salary = salary;
         this.company = company;
         this.position = position;
+        this.positionLevel = positionLevel;
 
     }
     public String getName() {
@@ -58,6 +59,13 @@ public class Employee {
     public void setPosition(String position) {
         this.position = position;
     }
+
+    public PositionLevel getLevel() {
+        return positionLevel;
+    }
+    public void setLevel(String levelStr) {
+        this.positionLevel = PositionLevel.valueOf(levelStr.toUpperCase());
+    }
     @Override
     public String toString() {
         return "Employee{" +
@@ -67,6 +75,7 @@ public class Employee {
                 "salary=" + salary +
                 "company='" + company + '\'' +
                 "position='" + position + '\'' +
+                "level=" + positionLevel +
                 '}';
     }
     @Override

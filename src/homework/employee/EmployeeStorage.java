@@ -3,6 +3,7 @@ package homework.employee;
 import Homework1.Lesson3.Array;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class EmployeeStorage {
     private ArrayList<Employee> employees = new ArrayList<>();
@@ -25,11 +26,27 @@ public class EmployeeStorage {
         }
         return null;
     }
-    public void searchByCompany(String company) {
+    public List<Employee> searchByCompany(String company) {
+        List<Employee> result  = new ArrayList<>();
         for (Employee e : employees) {
             if (e.getCompany().equalsIgnoreCase(company)) {
-                System.out.println(e);
+               result.add(e);
             }
         }
+        return result;
+    }
+
+    public List<Employee> searchByPositionLevel(PositionLevel level) {
+        List<Employee> result = new ArrayList<>();
+        for (Employee e : employees) {
+            if (e.getLevel() == level) {
+                result.add(e);
+            }
+        }
+        return result;
+    }
+
+    public List<Employee> getAllEmployees() {
+        return employees;
     }
 }

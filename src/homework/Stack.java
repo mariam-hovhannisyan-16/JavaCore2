@@ -1,4 +1,4 @@
-package Homework1;
+package homework;
 
 public class Stack {
     public boolean isEmpty;

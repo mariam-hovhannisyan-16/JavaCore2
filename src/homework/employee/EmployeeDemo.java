@@ -1,5 +1,6 @@
 package homework.employee;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class EmployeeDemo {
@@ -8,41 +9,36 @@ public class EmployeeDemo {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        boolean running = true;
-
-        while (running) {
+        while (true) {
             printMenu();
-            int choice = getChoice();
+            String command = scanner.nextLine();
 
-            switch (choice) {
-                case 0 -> running = false;
-                case 1 -> addEmployee();
-                case 2 -> printAllEployees();
-                case 3 -> searchById();
-                case 4 -> searchByCompany();
-                default -> System.out.println("Invalid choice, try again!");
+            if (command.equals("0")) {
+                System.out.println("Exiting...");
+                break;
             }
+            handleCommand(command);
         }
-        System.out.println("Program closed.");
     }
 
     private static void printMenu() {
-        System.out.println("""
-                ===== Employee Menu =====
-                0 -> Exit
-                1 -> Add Employee
-                2 -> Print All Employee
-                3 -> Search Employee by ID
-                4 -> Search Employee by Company
-                """);
-        System.out.print("Enter your choice: ");
+        System.out.println("\n0 - Exit");
+        System.out.println("1 - Add Employee");
+        System.out.println("2 - Print All Employees");
+        System.out.println("3 - Search Employee by ID");
+        System.out.println("4 - Search Employee by Company");
+        System.out.println("5 - Search Employees by Position Level");
+        System.out.print("Enter command: ");
     }
 
-    private static int getChoice() {
-        try {
-            return Integer.parseInt(scanner.nextLine());
-        } catch (NumberFormatException e) {
-            return -1;
+    private static void handleCommand(String command) {
+        switch (command) {
+            case "1" -> addEmployee();
+            case "2" -> printAllEmployees();
+            case "3" -> searchEmployeeByID();
+            case "4" -> searchEmployeeByCompany();
+            case "5" -> searchEmployeeByPositionLevel();
+            default -> System.out.println("Unknown command");
         }
     }
 
@@ -53,50 +49,81 @@ public class EmployeeDemo {
         System.out.print("Enter surname: ");
         String surname = scanner.nextLine();
 
-        System.out.print("Enter employee ID: ");
+        System.out.print("Enter employee ID (e.g., A0001): ");
         String id = scanner.nextLine();
 
         System.out.print("Enter salary: ");
-        double salary;
-        try {
-            salary = Double.parseDouble(scanner.nextLine());
-        } catch (NumberFormatException e) {
-            System.out.println("Invalid salary, adding canceled!");
-            return;
-        }
+        double salary = Double.parseDouble(scanner.nextLine());
 
-        System.out.println("Enter company: ");
+        System.out.print("Enter company: ");
         String company = scanner.nextLine();
 
         System.out.print("Enter position: ");
         String position = scanner.nextLine();
 
-        Employee employee = new Employee(name, surname, id, salary, company, position);
-        storage.add(employee);
-        System.out.println("Employee added successfully!\n");
-    }
+        System.out.print("Enter position level (JUNIOR, MIDDLE, SENIOR, LEAD): ");
+        String levelStr = scanner.nextLine();
 
-    private static void printAllEployees() {
-        System.out.println("=== All Employees ===");
-        storage.printAll();
-        System.out.println();
-    }
-
-    private static void searchById() {
-        System.out.print("Enter employee ID to search: ");
-        String id = scanner.nextLine();
-        Employee employee = storage.searchByID(id);
-        if (employee != null) {
-            System.out.println("Found: " + employee + "\n");
-        } else {
-            System.out.println("Employee not found!\n");
+        try {
+            PositionLevel positionLevel = PositionLevel.valueOf(levelStr.toUpperCase());
+            Employee employee = new Employee(name, surname, id, salary, company, position, positionLevel);
+            storage.add(employee);
+            System.out.println("Employee added!");
+        } catch (IllegalArgumentException e) {
+            System.out.println("Invalid position level!");
         }
     }
-    private static void searchByCompany() {
-        System.out.print("Enter compony name: ");
-        String company = scanner.nextLine();
-        System.out.println("=== Employee from " + company + " ===");
-        storage.searchByCompany(company);
-        System.out.println();
+
+    private static void printAllEmployees() {
+        List<Employee> allEmployees = storage.getAllEmployees();
+        if (allEmployees.isEmpty()) {
+            System.out.println("No employees available.");
+        } else {
+            for (Employee e : allEmployees) {
+                System.out.println(e);
+            }
+        }
+    }
+
+    private static void searchEmployeeByID() {
+        System.out.print("Enter employee ID: ");
+        String searchID = scanner.nextLine();
+        Employee found = storage.searchByID(searchID);
+        if (found != null) {
+            System.out.println(found);
+        } else {
+            System.out.println("Employee not found!");
+        }
+    }
+
+    private static void searchEmployeeByCompany() {
+        System.out.print("Enter company name: ");
+        String searchCompany = scanner.nextLine();
+        List<Employee> companyEmployees = storage.searchByCompany(searchCompany);
+        if (companyEmployees.isEmpty()) {
+            System.out.println("No employees found for this company.");
+        } else {
+            for (Employee e : companyEmployees) {
+                System.out.println(e);
+            }
+        }
+    }
+
+    private static void searchEmployeeByPositionLevel() {
+        System.out.print("Enter position level (JUNIOR, MIDDLE, SENIOR, LEAD): ");
+        String searchLevelStr = scanner.nextLine();
+        try {
+            PositionLevel level = PositionLevel.valueOf(searchLevelStr.toUpperCase());
+            List<Employee> levelEmployees = storage.searchByPositionLevel(level);
+            if (levelEmployees.isEmpty()) {
+                System.out.println("No employees found with this position level.");
+            } else {
+                for (Employee e : levelEmployees) {
+                    System.out.println(e);
+                }
+            }
+        } catch (IllegalArgumentException e) {
+            System.out.println("Invalid position level!");
+        }
     }
 }
