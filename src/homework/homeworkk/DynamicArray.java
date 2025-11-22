@@ -1,4 +1,4 @@
-package homework;
+package homework.homeworkk;
 
 public class DynamicArray {
     private int[] array = new int[10];

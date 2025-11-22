@@ -1,4 +1,4 @@
-package homework;
+package homework.homeworkk;
 
 public class DynamicArrayDemo {
     public  static void main(String[] args) {
