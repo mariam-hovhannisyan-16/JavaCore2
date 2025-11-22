@@ -1,7 +1,5 @@
 package homework.employee;
 
-import Homework1.Lesson3.Array;
-
 import java.util.ArrayList;
 import java.util.List;
 
