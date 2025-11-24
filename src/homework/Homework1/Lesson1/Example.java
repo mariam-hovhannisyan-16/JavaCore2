@@ -1,7 +1,0 @@
-package homework.Homework1.Lesson1;
-
-public class Example {
-    public static void main(String[] args) {
-        System.out.print("Hello");
-    }
-}
