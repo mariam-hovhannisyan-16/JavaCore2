@@ -4,87 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45c9186-3d54-4e64-9e21-330f31908bfa" name="Changes" comment="homework">
-      <change afterPath="$PROJECT_DIR$/../html-example/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html-example/img/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html-example/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Commands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/RestOrderSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/DBConnectionProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/DishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/OrderItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson14/Gen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson4/BasicMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson4/Modulus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Homework1/Lesson10/ExceptionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Homework1/Lesson9/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson9/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Homework1/Lesson9/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson9/MyInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Homework1/Lesson9/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson9/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/FileAnalyzer/FileAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework11/FileAnalyzer/FileAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/FileAnalyzer/FileAnalyzerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework11/FileAnalyzer/FileAnalyzerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/FileAnalyzer/myFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework11/FileAnalyzer/myFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson1/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson1/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson10/ExceptionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson10/ExceptionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson2/BlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson2/BlockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson2/ForTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson2/ForTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson2/IfSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson2/IfSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/Area.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/AutoArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/AutoArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/Average.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/BoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/BoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/CharDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/CharDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/CharDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/CharDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/Conversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/DynInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/DynInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/LifeTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/LifeTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/Light.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/Promote.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/Promote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/Scope.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/Scope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/ScopeErr.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/ScopeErr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/ThreeDMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/ThreeDMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/TwoDAgain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/TwoDAgain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson3/TwoDArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/Lessons/Lesson3/TwoDArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson9/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson9/MyInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/Homework1/Lesson9/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework8/employee/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/employee/EmployeeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework8/employee/EmployeeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/employee/EmployeeStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework8/employee/EmployeeStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/employee/PositionLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework8/employee/PositionLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/homeworkk/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework5/ArrayUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/homeworkk/BraceChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework7/BraceChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/homeworkk/BraceCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework7/BraceCheckerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/homeworkk/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework3/DynamicArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/homeworkk/DynamicArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework3/DynamicArrayDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/homeworkk/FigurePainter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework4/FigurePainter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/homeworkk/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework1/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/homeworkk/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework2/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/library/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework9/library/Commands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/library/LibraryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework9/library/LibraryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/library/Storage/AuthorStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework9/library/Storage/AuthorStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/library/Storage/BookStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework9/library/Storage/BookStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/library/model/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework9/library/model/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/library/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework9/library/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/medicalCenter/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework10/medicalCenter/Commands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/medicalCenter/MedicalCenterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework10/medicalCenter/MedicalCenterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/medicalCenter/MedicalCenterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework10/medicalCenter/MedicalCenterMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/medicalCenter/Storage/MedicalCenterStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework10/medicalCenter/Storage/MedicalCenterStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/medicalCenter/model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework10/medicalCenter/model/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/medicalCenter/model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework10/medicalCenter/model/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/medicalCenter/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework10/medicalCenter/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/homework/medicalCenter/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/homework/homework10/medicalCenter/util/DateUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="a45c9186-3d54-4e64-9e21-330f31908bfa" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,11 +88,29 @@
       <option name="presentableId" value="Default" />
       <updated>1767703919506</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1767784306614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1767784306614</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1767784421562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767784421562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
